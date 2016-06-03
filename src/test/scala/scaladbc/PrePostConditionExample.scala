@@ -1,3 +1,5 @@
+package scaladbc
+
 object PrePostConditionExample {
 
   def addNaturals(nats: List[Int]): Int = {

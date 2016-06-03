@@ -1,3 +1,5 @@
+package scaladbc
+
 import scala.collection.mutable.ListBuffer
 
 trait Invariants {

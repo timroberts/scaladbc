@@ -1,3 +1,5 @@
+package scaladbc
+
 
 trait MathSig {
   def sqrt(x: Double): Double

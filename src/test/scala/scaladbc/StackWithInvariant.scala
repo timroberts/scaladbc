@@ -1,3 +1,5 @@
+package scaladbc
+
 //constructor argument illustrates breaking invariant
 class StackWithInvariant[T](initialSize:Int=0) extends Invariants {
 
