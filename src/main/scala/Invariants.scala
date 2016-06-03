@@ -13,10 +13,11 @@ trait Invariants {
     result
   }
 
-  // notice require
+  // notice require, same as precondition
   // protected to allow checking after construction
   protected def preCheck() = for (inv <- invariants) require(inv())
 
-  private def postCheck() = for (inv <- invariants) assert(inv()) // notice assert, same as ensures
+  // notice assert, same as ensures
+  private def postCheck() = for (inv <- invariants) assert(inv())
 
 }
