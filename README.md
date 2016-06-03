@@ -1,6 +1,6 @@
 # Scala Design-by-Contract
 
-Design-by-contract is a powerful, somewhat less known, technique to improve software quality. 
+Design-by-contract is a powerful, but less well known, technique to improve software quality. 
 General information can be found in the wiki:
 [Wiki](https://github.com/timroberts/sdbc/wiki)
 
