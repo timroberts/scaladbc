@@ -2,12 +2,12 @@ package scaladbc
 
 import org.scalatest.FunSpec
 
-class ContractTraitSpecTests extends FunSpec {
+class MathWithSpecTests extends FunSpec {
 
   describe("Trait based specs") {
 
     it("should throw on broken pre-condition") {
-      intercept[IllegalArgumentException](MyMath.sqrt(-1))
+      intercept[IllegalArgumentException](MathWithSpec.sqrt(-1))
     }
 
     it("should throw on broken post condition") {
@@ -15,7 +15,7 @@ class ContractTraitSpecTests extends FunSpec {
       val sqrtx = Math.sqrt(x)
       val diff = Math.abs(sqrtx*sqrtx-x)
       //println(diff<MyMath.epsilon)
-      intercept[AssertionError](MyMath.sqrt(x))
+      intercept[AssertionError](MathWithSpec.sqrt(x))
     }
 
   }

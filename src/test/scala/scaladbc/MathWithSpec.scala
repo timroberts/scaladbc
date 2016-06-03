@@ -20,5 +20,5 @@ trait MathImpl extends MathSig {
   def sqrt(x: Double): Double = Math.sqrt(x)
 }
 
-object MyMath extends MathImpl with MathSpec
+object MathWithSpec extends MathImpl with MathSpec
 

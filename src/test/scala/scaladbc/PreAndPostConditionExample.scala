@@ -1,6 +1,6 @@
 package scaladbc
 
-object PrePostConditionExample {
+object PreAndPostConditionExample {
 
   def addNaturals(nats: List[Int]): Int = {
     require(nats forall (_ >= 0), "List contains negative numbers")
