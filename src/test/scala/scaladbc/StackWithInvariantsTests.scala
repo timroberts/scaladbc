@@ -2,7 +2,7 @@ package scaladbc
 
 import org.scalatest.FunSpec
 
-class StackWithInvariantsTest extends FunSpec {
+class StackWithInvariantsTests extends FunSpec {
 
   describe("Scala invariants") {
 
