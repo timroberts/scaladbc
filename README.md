@@ -11,4 +11,4 @@ The **goals** of this repo are as follows:
 
 Feel free to contribute to these goals.
 
-I want to thank Martin Odesrky for providing the original material that started this project.
+I want to thank Martin Odersky for providing the original material that started this project.
