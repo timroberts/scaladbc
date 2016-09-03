@@ -1,8 +1,8 @@
 lazy val root = (project in file(".")).
   settings(
     name := "sdbc",
-    version := "0.1",
+    version := "0.1.1",
     scalaVersion := "2.11.8"
   )
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.0-RC4" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.0" % "test"
