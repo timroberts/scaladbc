@@ -9,6 +9,6 @@ The **goals** of this repo are as follows:
 * Collect a robust implementation of missing features such as invariants. These are in the main dir.
 * Capture discussions and documents regarding implementation, trade-offs and growth scenarios around DbC in scala
 
-Feel free to contribute to these goals.
+Any help towards these goals gladly accepted! 
 
 I want to thank Martin Odersky for providing the original material that started this project.
