@@ -1,8 +1,8 @@
 package scaladbc
 
-import org.scalatest.FunSpec
+import org.scalatest.funspec.AnyFunSpec
 
-class PreAndPostConditionTests extends FunSpec {
+class PreAndPostConditionTests extends AnyFunSpec {
 
   describe("Scala pre-conditions") {
 

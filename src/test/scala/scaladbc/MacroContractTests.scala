@@ -1,10 +1,10 @@
 package scaladbc
 
 import org.scalactic.Requirements
-import org.scalatest.FunSpec
+import org.scalatest.funspec.AnyFunSpec
 
 //Notice the import of the Scalatic Requirements Trait
-class MacroContractTests extends FunSpec with Requirements {
+class MacroContractTests extends AnyFunSpec with Requirements {
 
   def negativeVersionOf(a:Double): Double = {
     require(a >= 0)

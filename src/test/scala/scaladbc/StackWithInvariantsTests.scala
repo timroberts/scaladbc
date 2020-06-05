@@ -1,8 +1,8 @@
 package scaladbc
 
-import org.scalatest.FunSpec
+import org.scalatest.funspec.AnyFunSpec
 
-class StackWithInvariantsTests extends FunSpec {
+class StackWithInvariantsTests extends AnyFunSpec {
 
   describe("Scala invariants") {
 

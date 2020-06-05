@@ -1,8 +1,8 @@
 package scaladbc
 
-import org.scalatest.FunSpec
+import org.scalatest.funspec.AnyFunSpec
 
-class MathWithSpecTests extends FunSpec {
+class MathWithSpecTests extends AnyFunSpec {
 
   describe("Trait based specs") {
 
