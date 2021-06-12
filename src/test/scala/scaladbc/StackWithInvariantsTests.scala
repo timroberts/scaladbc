@@ -9,7 +9,7 @@ class StackWithInvariantsTests extends AnyFunSpec {
     it("should not throw on satisfied invariants") {
       val stack = new StackWithInvariant[Double]()
       stack.push(1.0)
-      assert(stack.pop === 1.0)
+      assert(stack.pop() === 1.0)
     }
 
     it("should throw on broken invariant based post-condition 1") {
